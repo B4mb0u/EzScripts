@@ -230,8 +230,8 @@ end
 
 -----------------------
 
-local sense = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Sirius/request/library/sense/source.lua"))()
-local rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/B4mb0u/EzPets/main/ui.lua"))()
+local sense = loadstring(game:HttpGet("https://raw.githubusercontent.com/B4mb0u/EzScripts/main/sense.lua"))()
+local rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/B4mb0u/EzScripts/main/rayfield.lua"))()
 
 local window = rayfield:CreateWindow({
 	Name = "EzESP - v1.0",
