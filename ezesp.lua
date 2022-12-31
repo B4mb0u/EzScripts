@@ -318,7 +318,7 @@ for setting in pairs(getgenv().settings["friendly"]) do
                 getgenv().settings["friendly"][setting] = value
                 saveSettings(getgenv().settings, "EzESP.win")
 
-                sense.teamSettings["Enemy"][setting] = value
+                sense.teamSettings["Friendly"][setting] = value
 
                 if getgenv().settings["enabled"] then
                     if sense.hasLoaded then
